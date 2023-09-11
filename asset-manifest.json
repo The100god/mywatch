@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/mywatch/static/css/main.9cb75f41.css",
+    "main.js": "/mywatch/static/js/main.137b2a68.js",
+    "static/js/787.e8e08e4e.chunk.js": "/mywatch/static/js/787.e8e08e4e.chunk.js",
+    "static/media/ww1.jpg": "/mywatch/static/media/ww1.c4954ee552aa8066840d.jpg",
+    "static/media/mw1.jpg": "/mywatch/static/media/mw1.3bcdf925a1d50056d34e.jpg",
+    "static/media/most-recommended.jpeg": "/mywatch/static/media/most-recommended.c42ddff124b74c7a9779.jpeg",
+    "static/media/Titan.jpeg": "/mywatch/static/media/Titan.a71ec552d00bc69e6ea3.jpeg",
+    "index.html": "/mywatch/index.html",
+    "main.9cb75f41.css.map": "/mywatch/static/css/main.9cb75f41.css.map",
+    "main.137b2a68.js.map": "/mywatch/static/js/main.137b2a68.js.map",
+    "787.e8e08e4e.chunk.js.map": "/mywatch/static/js/787.e8e08e4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cb75f41.css",
+    "static/js/main.137b2a68.js"
+  ]
+}
