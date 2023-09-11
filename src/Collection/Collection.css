@@ -1,0 +1,100 @@
+.collectionCard-container{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap:wrap;
+    margin-left:0rem;
+    margin-top: 2rem;   
+}
+
+.collectionCard{
+    
+    margin: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0px 3px 8px gray;
+}
+
+.collectionCard-img{
+    width: 13rem;
+    border-bottom: 2px solid white;
+    box-shadow: 0px 3px 2px gray;
+    /* height: 17rem; */
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.collectionCard-title{
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.collectionCard-reviews{
+    background-color: white;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.rating-star{
+    background-color: white;
+    color: gold;
+}
+
+.collectionCard-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.collectionCard-details,.price  {
+    background-color: white;
+}
+.bag{
+    background-color: white;
+}
+
+.total-reviews{
+    font-size: 0.9rem;
+    margin-left: 10px;
+
+}
+
+.Collection{
+    border-bottom: 2px solid gray;
+}
+
+.Collection:hover{
+    box-shadow: 0px 5px 8px gray;
+}
+
+.collectionContent{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 5%;
+    justify-content: space-around;
+    
+}
+
+.CollectionTitle{
+    margin-top: 30px;
+}
+
+.sectionNameCollection{
+    display: flex;
+    justify-content:flex-start;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-bottom: 2px solid gray;
+}
+
+.mostRecommended{
+    width: 16rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

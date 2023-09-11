@@ -1,0 +1,151 @@
+nav{
+    display: flex;
+    position: sticky;
+    border-bottom: 2px solid gray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    z-index: 999;
+    box-shadow: 0px 3px 7px gray;
+    /* margin-left:2px ; */
+}
+
+.left{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 2%;
+
+}
+
+.left a{
+    padding: 10px;
+    font-size: 1.8vw;
+}
+.left a:hover{
+    color: rgb(10, 140, 97);
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.mid {
+    display: block;
+    max-width: 50%;
+    margin: 0px auto;
+    
+}
+
+.mid .logo{
+    font-size: 2.5vw;
+}
+
+
+.right{
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 2%;
+}
+
+.right a, .search, .removeSearch{
+    padding: 10px;
+    size: 2vw;
+}
+
+.removeSearch{
+    display: none;
+}
+
+.nav-icons{
+    width:25px;
+    height:25px;
+}
+
+.topnav{
+    display: none;
+    width: 50%;
+    /* height: 40%; */
+    position: absolute;
+    /* padding: 10px; */
+    text-align: center;
+    align-items: center;
+    top: 65px;
+    left:0;
+}
+
+
+
+.topnav ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px;
+    max-width: 30%;
+
+}
+
+.topnav ul li a{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 0%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 7vw;
+}
+
+.close{
+    display: flex;
+    float: right;
+    margin: 10px;
+    z-index: 22;
+    cursor: pointer;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger{
+    width: 2rem;
+    height: 2rem;
+}
+
+@media only screen and (max-width: 580px) {
+    .hamburger{
+        display: block;
+    }
+
+    .left{
+        display: none;
+    }
+    .helpIcon{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .mid .logo{
+        font-size: 1.5rem;
+    }
+}
+
+.searchBar input[type="search"]{
+    padding: 2px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.searchBar{
+    display: none;
+}

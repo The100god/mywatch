@@ -1,0 +1,220 @@
+.favCard-container{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap:wrap;
+    margin-left:0rem;
+    margin-top: 2rem;   
+}
+
+.favCard{
+    margin: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0px 3px 8px gray;
+}
+
+.favCard-img{
+    width: 13rem;
+    border-bottom: 2px solid white;
+    box-shadow: 0px 3px 2px gray;
+    /* height: 17rem; */
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.favCard-title{
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.favCard-reviews{
+    background-color: white;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.rating-star{
+    background-color: white;
+    color: gold;
+}
+
+.favCard-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.favCard-details,.price  {
+    background-color: white;
+}
+.bag{
+    background-color: white;
+}
+
+.total-reviews{
+    font-size: 0.9rem;
+    margin-left: 10px;
+
+}
+
+.Fav{
+    
+    border-bottom: 2px solid gray;
+    
+}
+
+.Fav:hover{
+    box-shadow: 0px 5px 8px gray;
+}
+
+.sectionNameFav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.name{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-bottom: 2px solid gray;
+    padding: 30px;
+    margin: 0% 10%;
+    color: #F4F9F9;
+}
+
+.name span{
+    background-color: #F4F9F9;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+
+}
+
+.name span:hover{
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 3px 5px gray;
+}
+
+.Everyday{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 10%;
+    justify-content: space-around;
+}
+
+.activity{
+    display: none;
+    flex-wrap: wrap;
+    margin: 0% 10%;
+    justify-content: space-around;
+}
+
+.actCard-container{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap:wrap;
+    margin-left:0rem;
+    margin-top: 2rem;   
+}
+
+.actCard{
+    margin: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0px 3px 8px gray;
+}
+
+.actCard-img{
+    width: 13rem;
+    border-bottom: 2px solid white;
+    box-shadow: 0px 3px 2px gray;
+    /* height: 17rem; */
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.actCard-title{
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.actCard-reviews{
+    background-color: white;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.actCard-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.actCard-details,.price  {
+    background-color: white;
+}  
+
+
+.party{
+    display: none;
+    flex-wrap: wrap;
+    margin: 0% 10%;
+    justify-content: space-around;
+}
+
+.parCard-container{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap:wrap;
+    margin-left:0rem;
+    margin-top: 2rem;   
+}
+
+.parCard{
+    margin: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0px 3px 8px gray;
+}
+
+.parCard-img{
+    width: 13rem;
+    border-bottom: 2px solid white;
+    box-shadow: 0px 3px 2px gray;
+    /* height: 17rem; */
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.parCard-title{
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.parCard-reviews{
+    background-color: white;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.parCard-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.parCard-details,.price  {
+    background-color: white;
+}

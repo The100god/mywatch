@@ -1,0 +1,30 @@
+.sidebarComponent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    width: 14rem;
+    border-bottom: 2px solid gray;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .sidebarComponent:hover {
+    box-shadow: 0px 4px 8px gray;
+  }
+  
+  .sidebar-title {
+    font-size: 1.3rem;
+    background-color: white;
+  }
+  
+  .title,
+  span {
+    background-color: white;
+  }
+  
+  .plus {
+    font-size: 2rem;
+    background-color: white;
+  }
+  

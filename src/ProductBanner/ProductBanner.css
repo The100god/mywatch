@@ -1,0 +1,39 @@
+.Banner{
+    display: flex;
+    width: 100%;
+}
+
+.BannerImg{
+    width: 50%;
+}
+.BannerImg img{
+    width: 100%;
+    /* height: 200px; */
+}
+
+.moto{
+    display: block;
+    position: absolute;
+    margin: 7% 25% ;
+    /* left:50%; */
+    font-size: 3vw;
+    opacity: 0.8;
+    
+}
+
+.shop{
+    display: flex;
+    position: absolute;
+    margin-top: -8%;
+    font-size: 2vw;
+    padding: 2px 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shopMen{
+    left:30%
+}
+.shopWomen{
+    right:27%
+}
